@@ -1,25 +1,28 @@
 # Guniea_Pig_Image_Classifier
 
-Peanut Classifier:
+**Peanut Classifier: **
 
 The Peanut Classifier is an image classifier trained to classify Guinea Pigs that I made. It was built using machine learning, more specifically it was built using a neural network. This neural network is loosely based off AlexNet, once one of the fastest algorithms for computer vision, back when it came out in 2012. It has then been surpassed by other architectures such as Residual Networks, which I plan on implementing soon. 
 
 
-Structure:
-conv1          convolution and rectified linear activation.
-pool1          max pooling.
-norm1          local response normalization.
+**Structure:** 
 
-conv2          convolution and rectified linear activation.
-norm2          local response normalization.
-pool2          max pooling.
+conv1          convolution and rectified linear activation.    
 
-local3             fully connected layer with rectified linear activation.
-local4             fully connected layer with no activation.
-softmax          linear transformation to produce logits.
+pool1          max pooling.   
+norm1          local response normalization.  
 
+conv2          convolution and rectified linear activation.  
+norm2          local response normalization.  
+pool2          max pooling.  
 
-Goals: 
+local3         fully connected layer with rectified linear activation.  
+local4         fully connected layer with no activation.  
+softmax        linear transformation to produce logits.  
+  
+
+**Goals: **
+
 1. To be able to input my own collected data in the form of images and preprocess them to be useful in training a CNN. In this 		simplified program this means, being  able to read the image files and convert them to usable matrices of the same size (batch size, X,  Y, depth/channels)
 
 2. To be able to both implement the entire neural network from start to finish using the Tensorflow framework and visualize the results using Tensorboard. This means programming all the relevant code into computation graphs, their respective tensors, and executing them with Tensorflow.
@@ -27,18 +30,21 @@ Goals:
 3. To make a functional algorithm that can classify Guinea Pigs given a certain image. To define a metric, it would be for the algorithm to classify >50% of the training data correct. Additionally it would be good to have the cross validation data to be classified correctly over 50% of the time as well. 
 
 
-Background on the Project Name: 
+**Background on the Project Name:**
+
 This model was trained to classify pictures of Guinea Pigs. It was inspired by my fiancés love and care for our pet guinea pigs. Out of the bunch was one guinea pig named was Peanut.  This little guinea pig was there for my fiancé since she was young and was a very nice companion. Sadly, Peanut passed away recently, and so this Neural Network was named after him as a respectful nod to his memory. In a way, this program will theoretically be able to remember Peanut way past our own lifetimes, a happy thought that hopefully brings some joy to other pet owners.
 
-Below is an image of peanut
+Below is an image of peanut   
+
 ![alt text](https://raw.githubusercontent.com/RickyAndreFlores/Guniea_Pig_Image_Classifier/master/Peanut%20-%20Copy.JPG)
 
 
-Results:
-83 % accuracy on training data after 100 iterations, with a 53% accuracy on the cross validation data. 
+**Results: **    
+
+**83% accuracy** on training data after 100 iterations, with a **53% accuracy** on the cross validation data. 
 
 
-Conclusion and Potential Improvements: 
+**Conclusion and Potential Improvements: **
 
 In conclusion, the Neural Network works, but it is clear that it is over fit onto the training data. A quick solution for is to provide the Neural Network with much more, and more diverse data. 
 
