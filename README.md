@@ -35,7 +35,7 @@ softmax        linear transformation to produce logits.
 This model was trained to classify pictures of Guinea Pigs. It was inspired by my fiancés love and care for our pet guinea pigs. Out of the bunch was one guinea pig named was Peanut.  This little guinea pig was there for my fiancé since she was young and was a very nice companion. Sadly, Peanut passed away recently, and so this Neural Network was named after him as a respectful nod to his memory. In a way, this program will theoretically be able to remember Peanut way past our own lifetimes, a happy thought that hopefully brings some joy to other pet owners.
 
 Below is an image of peanut   
-<img src="https://raw.githubusercontent.com/RickyAndreFlores/Guniea_Pig_Image_Classifier/master/Peanut%20-%20Copy.JPG" height="60">
+<img src="https://raw.githubusercontent.com/RickyAndreFlores/Guniea_Pig_Image_Classifier/master/Peanut%20-%20Copy.JPG" height="250">
 
 
 **Results:**    
