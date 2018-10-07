@@ -1,6 +1,6 @@
 # Guniea_Pig_Image_Classifier
 
-**Peanut Classifier: **
+**Peanut Classifier:**
 
 The Peanut Classifier is an image classifier trained to classify Guinea Pigs that I made. It was built using machine learning, more specifically it was built using a neural network. This neural network is loosely based off AlexNet, once one of the fastest algorithms for computer vision, back when it came out in 2012. It has then been surpassed by other architectures such as Residual Networks, which I plan on implementing soon. 
 
@@ -21,7 +21,7 @@ local4         fully connected layer with no activation.
 softmax        linear transformation to produce logits.  
   
 
-**Goals: **
+**Goals:**
 
 1. To be able to input my own collected data in the form of images and preprocess them to be useful in training a CNN. In this 		simplified program this means, being  able to read the image files and convert them to usable matrices of the same size (batch size, X,  Y, depth/channels)
 
@@ -39,12 +39,12 @@ Below is an image of peanut
 ![alt text](https://raw.githubusercontent.com/RickyAndreFlores/Guniea_Pig_Image_Classifier/master/Peanut%20-%20Copy.JPG)
 
 
-**Results: **    
+**Results:**    
 
 **83% accuracy** on training data after 100 iterations, with a **53% accuracy** on the cross validation data. 
 
 
-**Conclusion and Potential Improvements: **
+**Conclusion and Potential Improvements:**
 
 In conclusion, the Neural Network works, but it is clear that it is over fit onto the training data. A quick solution for is to provide the Neural Network with much more, and more diverse data. 
 
